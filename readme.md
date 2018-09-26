@@ -14,11 +14,16 @@
 ``DB_USERNAME=``
 ``DB_PASSWORD= ``
 
-#### Tạo key
+#### Tạo key cho ứng dụng
 ``php artisan key:generate``
 
 #### Chạy migration và seeding
 ``php artisan migrate --seed``
+
+#### Chạy project laravel trên địa chỉ http://localhost:8000 với câu lệnh
+``php artisan serve``
+
+#### 
 
 # 
 Mã nguồn laravel-task-management được sử dụng để thực hành tại [CodeGym](https://codegym.vn)

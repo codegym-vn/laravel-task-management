@@ -36,7 +36,7 @@
                 <tbody>
 
                 <!-- Kiểm tra, nếu biến tasks có số lượng bằng 0 (Không có task nào) thì trả về thông báo -->
-                @if(count($tasks) != 0)
+                @if(count($tasks) == 0)
                     <h5 class="text-primary">Hiện tại chưa có task nào được tạo!</h5>
                 @else
 

@@ -6,6 +6,9 @@
 #### Cài đặt composer
 ``composer install``
 
+#### Cài đặt npm
+``npm install``
+
 #### Tạo file .env từ file .env mẫu
 ``mv .env.example .env``
 
@@ -19,6 +22,9 @@
 
 #### Chạy migration và seeding
 ``php artisan migrate --seed``
+
+#### Chạy npm
+``npm run dev``
 
 #### Chạy project laravel trên địa chỉ http://localhost:8000 với câu lệnh
 ``php artisan serve``

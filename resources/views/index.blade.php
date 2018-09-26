@@ -20,7 +20,7 @@
         <div class="title m-b-md">
             Tasks List
         </div>
-        @if(!isset($tasks))
+    @if(!isset($tasks))
             <h5 class="text-primary">Dữ liệu không tồn tại!</h5>
         @else
         <table class="table table-bordered">
@@ -50,6 +50,8 @@
             </tbody>
         </table>
         @endif
+        <a href="{{ route('welcome') }}">< Back</a>
+
     </div>
 </div>
 <!-- Bootstrap JS -->

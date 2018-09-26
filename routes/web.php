@@ -13,6 +13,6 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/tasks', 'TaskController@index')->name('tasks.index');

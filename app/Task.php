@@ -15,7 +15,7 @@ class Task extends Model
      * @var array
      */
     protected $fillable = [
-        'title', 'content', 'expiration_date', 'image', 'category_id'
+        'title', 'content', 'expiration_date', 'image'
     ];
 
     public function category(){

@@ -18,7 +18,6 @@ class TasksTableSeeder extends Seeder
         $task->content = "Tạo project Laravel";
         $task->due_date = "2018-09-26";
         $task->image  = "";
-        $task->category_id  = 2;
         $task->save();
 
         $task = new Task();
@@ -27,7 +26,6 @@ class TasksTableSeeder extends Seeder
         $task->content = "Tạo migration cho bảng categories";
         $task->due_date = "2018-09-26";
         $task->image  = "";
-        $task->category_id  = 2;
         $task->save();
 
         $task = new Task();
@@ -36,7 +34,6 @@ class TasksTableSeeder extends Seeder
         $task->content = "Tạo dữ liệu cho bảng categories";
         $task->due_date = "2018-09-26";
         $task->image  = "";
-        $task->category_id  = 2;
         $task->save();
 
         $task = new Task();
@@ -45,7 +42,6 @@ class TasksTableSeeder extends Seeder
         $task->content = "Câu lệnh if trong Laravel";
         $task->due_date = "2018-09-26";
         $task->image  = "";
-        $task->category_id  = 1;
         $task->save();
     }
 }

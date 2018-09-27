@@ -20,6 +20,15 @@
         <div class="title m-b-md">
             Tasks List
         </div>
+
+        @if(Session::has('create-success'))
+            <h5 class="text-primary">{{ Session::get('create-success')}}</h5>
+        @endif
+
+        @if(isset($message))
+            <h5 class="text-primary">{{ $message }}</h5>
+        @endif
+
         @if(!isset($tasks))
             <h5 class="text-primary">Dữ liệu không tồn tại!</h5>
         @else
@@ -31,6 +40,7 @@
                     <th scope="col">Content</th>
                     <th scope="col">Created</th>
                     <th scope="col">Due Date</th>
+                    <th scope="col">Image</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -48,6 +58,9 @@
                             <td>{{ $task->content }}</td>
                             <td>{{ $task->created_at }}</td>
                             <td>{{ $task->due_date }}</td>
+                            <td>
+                                <img src="{{ asset('storage/images/' . $task->image) }}" alt="" style="width: 150px">
+                            </td>
                         </tr>
                     @endforeach
                 @endif

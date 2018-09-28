@@ -1,6 +1,5 @@
-Ứng dụng Task Management: Thực hành với form, upload file để thêm mới dữ liệu vào cơ sở dữ liệu và sử dụng câu lệnh if, foreach để hiển thị dữ liệu trên blade template.
-
 # Laravel-task-management
+#### Ứng dụng Task Management: Thực hành với form, upload file để thêm mới dữ liệu vào cơ sở dữ liệu và sử dụng câu lệnh if, foreach để hiển thị dữ liệu trên blade template.
 
 ## Các bước khởi chạy
 
